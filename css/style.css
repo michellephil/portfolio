@@ -344,7 +344,6 @@ button {
         grid-template-columns: 1fr 1fr 1fr;
     }
 }
-
 /* tablet */
 /* @media screen and (min-width: 800px) and (max-width: 1200px) {
 
