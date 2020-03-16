@@ -39,7 +39,7 @@ p {
 
 .gallery {
     display: grid;
-    grid-template-columns: 300px ;
+     grid-template-columns: 1fr;
     /* grid-template-rows: 300px; */
     grid-row-gap: 20px;
     padding-bottom: 10px;
@@ -48,8 +48,7 @@ p {
 
 .gallery > img {
     border: 5px #B3EFFF solid;
-    width: 100px;
-    height: 100px;
+    width: 95%;
     margin: 10px;
 }
 
