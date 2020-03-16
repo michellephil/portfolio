@@ -153,9 +153,10 @@ button {
     text-decoration: underline;
 }
 
+
 .gallery {
     display: grid;
-    grid-template-columns: 300px 300px 300px;
+    grid-template-columns: 1fr;
     grid-template-rows: 300px 300px;
     grid-row-gap: 75px;
     grid-column-gap: 75px;
@@ -164,7 +165,8 @@ button {
 }
 
 .gallery > img {
-    border: 5px #FF5C76 solid;
+    border: 5px #B3EFFF solid;
+    width: 95%;
     margin: 10px;
 }
 
@@ -329,7 +331,19 @@ button {
 .dropdown:hover .dropdown-content {
     display: block;
 }
+}
 
+@media all and (min-width: 800px) {
+    .gallery {
+        grid-template-columns: 1fr 1fr;
+    }
+    }
+    
+    
+    @media all and (min-width: 1240px) {
+    .gallery {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 }
 
 /* tablet */
